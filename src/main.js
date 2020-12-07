@@ -303,6 +303,7 @@ function menu_build() {
 				},
 				{
 					label: "Load PGN from clipboard",
+					accelerator: "CommandOrControl+Shift+V",
 					click: () => {
 						win.webContents.send("call", {
 							fn: "load_pgn_from_string",

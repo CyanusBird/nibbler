@@ -1,0 +1,16 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	  {
+		"name": "Debug Main Process",
+		"type": "node",
+		// "request": "launch",
+		"program": "${workspaceRoot}/src/main.js",
+		"cwd": "${workspaceRoot}",
+		"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd",
+		"args" : [],
+		"outputCapture": "std",
+		"request": "launch"
+	  }
+	]
+  }
